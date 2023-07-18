@@ -65,8 +65,8 @@ label_text = tkinter.Label(text="Timer",bg=DARK,fg=GREEN,font=("Arial",24,"bold"
 label_text.grid(row=0,column=2)
 #Image
 canvas = tkinter.Canvas(width=200,height=224,bg=DARK,highlightthickness=0) 
-tomato_img = tkinter.PhotoImage(file="C:\\Users\\timul\\Desktop\\python\\pomodoro\\p.png")
-canvas.create_image(100,112,image=tomato_img)
+vortex = tkinter.PhotoImage(file="C:\\Users\\timul\\Desktop\\python\\pomodoro\\p.png")
+canvas.create_image(100,112,image=vortex)
 timer_text = canvas.create_text(100,115,text="00:00",fill="White",font=(FONT_NAME,35,"bold"))
 canvas.grid(row=1,column=2)
 #Buttons 
